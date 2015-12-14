@@ -1,0 +1,2 @@
+# Allow init to detect fstype of /userdata
+allow qti_init_shell init:fifo_file { getattr ioctl read write };
